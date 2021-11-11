@@ -1,0 +1,47 @@
+h1{
+
+  text-align: center;
+}
+button{
+  max-width:fit-content;
+  padding: auto;
+  margin: auto;
+  display:ruby-base;
+}
+
+/* for 1st image */
+
+.side-text {
+display: inline-flex;
+flex-flow: column;
+justify-content: space-between;
+vertical-align: middle;
+
+}
+
+.landing-box img {
+display: inline-block;
+vertical-align: middle;
+width: 30%;
+margin: 40px 24px 32px 24px;
+flex-shrink: 0;
+}
+
+.landing-box p {
+  margin: 1.5rem 0;
+  text-align: justify;
+  
+}
+
+.landing-box .side-text {
+  width: 60%;
+  box-sizing: border-box;
+  
+}
+
+/* for skills */
+.skills{
+  margin: 0px 17px 0px 17px;
+  text-align: left;
+  
+}
